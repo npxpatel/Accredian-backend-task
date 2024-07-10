@@ -12,7 +12,6 @@ app.use(express.json());
 dotenv.config();
 app.use(cors({
   origin: 'https://accredian-frontend-task-ashen-seven.vercel.app',
-  credentials: true,
 }));
 
 app.get("/", (req, res) => {
